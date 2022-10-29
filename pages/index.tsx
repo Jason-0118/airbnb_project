@@ -5,7 +5,7 @@ import Banner from "../components/Banner"
 import SmallCard from "../components/SmallCard"
 import MediumCard from "../components/MediumCard"
 import LargeCard from "../components/LargeCard"
-
+import Footer from "../components/Footer"
 
 
 const Home: NextPage = ({ exploreData, cardsData }: any) => {
@@ -22,8 +22,8 @@ const Home: NextPage = ({ exploreData, cardsData }: any) => {
       {/* banner */}
       <Banner />
 
+      {/* Main three sections */}
       <main className='max-w-7xl mx-auto px-8 sm:px-16'>
-
         {/* section 1 */}
         <section className='pt-6'>
           <h2 className='text-3xl font-semibold'>Explore Nearby</h2>
@@ -39,7 +39,6 @@ const Home: NextPage = ({ exploreData, cardsData }: any) => {
             ))}
           </div>
         </section>
-
 
         {/* section 2 */}
         <section>
@@ -64,12 +63,9 @@ const Home: NextPage = ({ exploreData, cardsData }: any) => {
           description="Wishlists curated by Airbnb"
           buttonText="Get Inspired"
         />
-
-
-
       </main>
 
-
+              <Footer />
     </div>
   )
 }
