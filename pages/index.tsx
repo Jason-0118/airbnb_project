@@ -17,7 +17,7 @@ const Home: NextPage = ({ exploreData, cardsData }: any) => {
       </Head>
 
       {/* header */}
-      <Header />
+      <Header placeholder={"Search..."}/>
 
       {/* banner */}
       <Banner />
