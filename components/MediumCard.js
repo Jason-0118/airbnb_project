@@ -9,6 +9,7 @@ function MediumCard({ img, title }) {
                     className='rounded-lg'
                     src={img}
                     fill
+                    alt=""
                 />
 
             </div>
