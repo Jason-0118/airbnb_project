@@ -4,6 +4,7 @@ import type { AppProps } from 'next/app'
 import ProgressBar from "@badrap/bar-of-progress";
 //make progress connection with router
 import Router from "next/router"
+import "mapbox-gl/dist/mapbox-gl.css";
 
 const progress = new ProgressBar({
   size: 4,
